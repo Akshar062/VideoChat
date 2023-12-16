@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "869623115308",
+    "project_id": "video-chat-c43e5",
+    "storage_bucket": "video-chat-c43e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869623115308:android:d2cc11735fc3e790256b89",
+        "android_client_info": {
+          "package_name": "com.akshar.videochat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcofQwNOixCBVeGKTjEBGqAJSG4kmdGsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

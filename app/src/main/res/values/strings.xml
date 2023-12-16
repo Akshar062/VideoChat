@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Video Chat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+<!-- Home fregment string-->
+
+    <string name="create_or_join_a_meeting">Create or Join a Meeting</string>
+    <string name="share_screen">Share Screen</string>
+    <string name="schedule">Schedule</string>
+    <string name="join_meeting">Join Meeting</string>
+    <string name="new_meeting">New Meeting</string>
+    <string name="content_description">Button Icon</string>
+
+</resources>

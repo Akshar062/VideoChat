@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_comment"
+        android:icon="@drawable/baseline_comment_bank_24"
+        android:title="Meet &amp; Chat" />
+    <item
+        android:id="@+id/menu_meetings"
+        android:icon="@drawable/baseline_lock_clock_24"
+        android:title="Meetings" />
+    <item
+        android:id="@+id/menu_contact"
+        android:icon="@drawable/icons8_person_60"
+        android:title="Contacts" />
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@drawable/setting"
+        android:title="Settings" />
+</menu>

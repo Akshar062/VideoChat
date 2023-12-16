@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="9de4ad50-76b9-43b8-ae4d-c6a4dd951136" />
+      <option name="name" value="9de4ad50-76b9-43b8-ae4d-c6a4dd951136" />
+      <option name="url" value="https://github.com/jitsi/jitsi-maven-repository/raw/master/releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="d6effe1a-9a61-42f1-9cbb-c51e87cb23f8" />
+      <option name="name" value="d6effe1a-9a61-42f1-9cbb-c51e87cb23f8" />
+      <option name="url" value="https://maven.google,com" />
+    </remote-repository>
+  </component>
+</project>
