@@ -8,7 +8,6 @@ import androidx.viewpager2.adapter.FragmentStateAdapter;
 import com.akshar.videochat.fregments.HistoryFragment;
 import com.akshar.videochat.fregments.HomeFragment;
 import com.akshar.videochat.fregments.ContactFragment;
-import com.akshar.videochat.fregments.SettingFragment;
 
 public class ViewPagerAdapter extends FragmentStateAdapter {
 
@@ -28,8 +27,6 @@ public class ViewPagerAdapter extends FragmentStateAdapter {
                 return new HistoryFragment();
             case 2:
                 return new ContactFragment();
-            case 3:
-                return new SettingFragment();
             default:
                 throw new IllegalArgumentException("Invalid position: " + position);
         }
@@ -38,6 +35,6 @@ public class ViewPagerAdapter extends FragmentStateAdapter {
     @Override
     public int getItemCount() {
         // Return the total number of pages
-        return 2; // Adjust based on the number of pages you have
+        return 3; // Adjust based on the number of pages you have
     }
 }

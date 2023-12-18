@@ -8,14 +8,14 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.akshar.videochat.adapters.ViewPagerAdapter;
+import com.akshar.videochat.utils.FirebaseAuthUtil;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class HomeActivity extends AppCompatActivity {
-
     private BottomNavigationView bottomNavigationView;
     private ViewPager2 viewPager;
-
     private TextView tvTitle;
+    private FirebaseAuthUtil firebaseAuthUtil;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,25 +26,26 @@ public class HomeActivity extends AppCompatActivity {
         bottomNavigationView = findViewById(R.id.bottom_navigation);
         viewPager = findViewById(R.id.viewPager);
 
+        firebaseAuthUtil = new FirebaseAuthUtil(this);
+
         viewPager.setAdapter(new ViewPagerAdapter(this));
 
         bottomNavigationView.setOnItemSelectedListener(item -> {
 
             if (item.getItemId() == R.id.menu_comment) {
                 viewPager.setCurrentItem(0, true);
-                tvTitle.setText("");
+                tvTitle.setText("Meet & Chat");
                 return true;
             } else if (item.getItemId() == R.id.menu_meetings) {
                 viewPager.setCurrentItem(1, true);
-                tvTitle.setText("Profile");
+                tvTitle.setText("Meeting History");
                 return true;
             } else if (item.getItemId() == R.id.menu_contact) {
                 viewPager.setCurrentItem(2, true);
                 tvTitle.setText("Profile");
                 return true;
             } else if (item.getItemId() == R.id.menu_settings) {
-                viewPager.setCurrentItem(3, true);
-                tvTitle.setText("Profile");
+                firebaseAuthUtil.signOut();
                 return true;
             } else {
                 return false;

@@ -15,6 +15,6 @@
         android:title="Contacts" />
     <item
         android:id="@+id/menu_settings"
-        android:icon="@drawable/setting"
+        android:icon="@drawable/logout_24px"
         android:title="Settings" />
 </menu>
